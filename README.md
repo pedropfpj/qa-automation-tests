@@ -31,3 +31,22 @@ Este projeto foi desenvolvido para praticar:
 ├── pages.py
 ├── requirements.txt
 └── README.md
+```
+
+## Como usar
+
+Para executar o projeto, utilize o comando:
+
+```bash
+python main.py
+```
+
+Se o ambiente estiver configurado para execução com Pytest, também é possível usar:
+
+```bash
+pytest
+```
+
+## Autor
+
+Pedro Freire
