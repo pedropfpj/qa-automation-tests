@@ -1,8 +1,33 @@
-### Diretrizes de nomenclatura de código
+# Projeto de Automação de Testes
 
-- **Nomes de variáveis** são escritos em `snake_case` e descrevem sua finalidade;
-- **Constantes** são escritas em maiúsculas;
-- **Comentários** são usados para explicar blocos importantes de código;
-- A **organização do código** é modular, com blocos de código reutilizáveis importados para onde for necessário;
-- Evite funções de espera (`wait`) desnecessárias que fazem com que o teste seja executado por mais tempo do que o necessário;
-- Siga uma **convenção de nomenclatura** para títulos de teste que começam com `test\_` e fornece uma descrição clara do cenário de teste. Os títulos dos testes são fornecidos no resumo.
+Este repositório contém testes automatizados de interface desenvolvidos em Python com Selenium WebDriver.
+
+O projeto foi criado com o objetivo de praticar automação de testes web, organização de código, reutilização de métodos e uso de localizadores em cenários de QA.
+
+## Objetivo
+
+Este projeto foi desenvolvido para praticar:
+
+- automação de testes de interface
+- estruturação de testes em Python
+- uso de localizadores com Selenium
+- separação de dados e funções auxiliares
+- organização de arquivos para melhor manutenção do código
+
+## Tecnologias utilizadas
+
+- Python
+- Selenium WebDriver
+- Pytest
+- ChromeDriver
+
+## Estrutura do projeto
+
+```bash
+.
+├── data.py
+├── helpers.py
+├── main.py
+├── pages.py
+├── requirements.txt
+└── README.md
